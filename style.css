@@ -1,0 +1,69 @@
+body{
+    background-color: #A0BFE0;
+}
+.container{
+    margin-top: 50px;
+}
+.card{
+    background-color: #7B8FA1;
+    color:white;
+    font-family: 'Baskervville', serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.top{
+    margin-top: 20px;
+}
+.card-header{
+    background-color: black;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    }
+
+.button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.button:hover .text {
+    color: #181717;
+}
+.col-sm-12{
+    margin-bottom: 20px;
+}
+.card-body {
+    height: 500px; 
+    overflow: hidden;
+    /* margin-top: 15px; */
+  }
+.card-img-top {
+    max-height: 100%;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+  
